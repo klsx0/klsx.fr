@@ -1,18 +1,25 @@
 .fond-0 {
     background-color: hsl(0 100% 100% / 0);
   }
+.fond-0.scrolled{
+  background-color: #5479a4;
+  }
+
 .intro {
     background: linear-gradient(to right, rgba(17, 24, 33, 0.85), rgba(17, 24, 33, 0.85)),url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80');    
 }
 
 hr {
-  width: 400px;
+  width: 200px;
   margin-top:0;
   margin-bottom:0;
   margin-left: auto;
   margin-right: auto;
   opacity: 100;
   background-color: #00B4D6;
+}
+.hr-title {
+  width: 350px;
 }
 section { 
   background-color: #111821;
@@ -22,4 +29,50 @@ section {
 }
 html {
   background-color: #111821;
+  scrollbar-face-color: #5479a4;
+  scrollbar-base-color: #5479a4;
+  scrollbar-3dlight-color: #5479a4;
+  scrollbar-highlight-color: #5479a4;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #5479a4;
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-track {  background-color: #5479a4;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #5479a4; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #5479a4;}
+::-webkit-resizer { background-color: #5479a4;}
+.title {
+  color: white !important;
+}
+.point-blue {
+  background-color: #00B4D6 !important;
+}
+.intro-title {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 4em;
+
+}
+
+.subtitle {
+  color: white !important;
+  font-weight: 300 !important;
+}
+
+.intro-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300 !important;
+}
+
+p {
+  color: white;
+}
+.badge {
+  margin-top:0;
+  margin-bottom:0;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }

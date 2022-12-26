@@ -1,6 +1,6 @@
 ---
 title: 'Communication'
-yop: [two,three,four]
+yop: [t=yesy,thrssee,four]
 ---
 
 # Pourquoi communiquer ?
@@ -15,8 +15,8 @@ Au cours de mon alternance, j'ai eu l'occasion de mettre en pratique mes compét
 Dans un autre exemple de mon expérience en matière de communication, j'ai effectué un stage dans une agence de communication où nous développions des sites internet pour nos clients. Dans ce contexte, j'ai été chargé de rédiger un document expliquant notre processus d'organisation des nouveaux projets pour les clients de l'agence.
 Le développement de sites internet est un sujet assez technique qui peut être difficile à comprendre pour les non-initiés. C'est pourquoi il était important que le document que j'ai rédigé soit clair et concis pour que tous nos clients puissent le comprendre facilement.
 Pour rédiger ce document, j'ai dû faire preuve de clarté et de concision afin de présenter notre processus de manière accessible à tous les clients. J'ai également dû être attentif aux détails pour expliquer de manière précise chaque étape de notre processus de développement de sites internet.
-Grâce à ce document, notre équipe a réussi à établir une meilleure compréhension des clients sur notre processus d'organisation et à améliorer notre collaboration. En clarifiant notre processus de travail, nous avons évité les malentendus et permis à nos clients de mieux comprendre nos démarches, même si le sujet était assez technique pour eux.
-[En savoir plus sur mon expérience dans l’agence de communication Cocoricom](https://www.notion.so/Cr-ation-SI-Cocoricom-7488745c322f477f90abb98004c86bf3)
+Grâce à ce document, notre équipe a réussi à établir une meilleure compréhension des clients sur notre processus d'organisation et à améliorer notre collaboration. En clarifiant notre processus de travail, nous avons évité les malentendus et permis à nos clients de mieux comprendre nos démarches, même si le sujet était assez technique pour eux.  
+[En savoir plus sur mon expérience dans l’agence de communication Cocoricom](/)
 
 
 # Pourquoi est-ce important ?
@@ -36,5 +36,3 @@ En ce qui concerne mon recul sur la compétence de la communication, je dirais q
 En ce qui concerne mon projet professionnel, je souhaite atteindre un niveau d'expertise dans la compétence de la communication à moyen terme. Je pense que cela me permettra d'être plus efficace dans mon travail et de me faire une meilleure réputation en tant que professionnel. Pour atteindre cet objectif, je suis actuellement en train de suivre des formations en communication professionnelle et j'ai l'intention de continuer à pratiquer régulièrement dans mon environnement professionnel pour améliorer encore ma compétence.
 
 En résumé, la compétence de la communication est une compétence cruciale pour moi en tant qu'Expert en Ingénierie des Systèmes d'Information. J'ai déjà fait des progrès significatifs dans cette compétence, mais je sais qu'il y a encore de la marge de progression pour moi. Je continuerai à travailler sur cette compétence en suivant des formations et en pratiquant régulièrement pour atteindre un niveau d'expertise à moyen terme.
-
-
