@@ -2,12 +2,28 @@
     background-color: hsl(0 100% 100% / 0);
   }
 .fond-0.scrolled{
-  background-color: #5479a4;
+  background-color: #080c11;
   }
 
 .intro {
     background: linear-gradient(to right, rgba(17, 24, 33, 0.85), rgba(17, 24, 33, 0.85)),url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80');    
 }
+.parcours-header {
+  font-weight: 400 !important;
+  color: #00B4D6 !important;
+}
+.button {
+  color: white;
+  background-color: #00B4D6;
+  border: none;
+}
+.button.red {
+  background-color: #B90000;
+}
+.button.green {
+  background-color: #81B900;
+}
+
 
 hr {
   width: 200px;
@@ -46,6 +62,22 @@ html {
 ::-webkit-resizer { background-color: #5479a4;}
 .title {
   color: white !important;
+  font-family: 'Roboto', sans-serif;
+
+}
+h1 {
+  color: white !important;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300 !important;
+  color: white !important;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300 !important;
+
 }
 .point-blue {
   background-color: #00B4D6 !important;
