@@ -1,8 +1,17 @@
 {{ define "main" }}
-<section class="section is-medium has-text-centered	">
-    <h1 class="title">A propos de moi</h1>
-    <h2 class="subtitle">
-      {{ .Content }}
-    </h2>
+<section class="section is-medium">
+  <h1 class="title has-text-centered">{{ .Title }}</h1>
+  <div class="columns is-centered">
+    <div class="column is-7">
+      <div class="content">
+        {{ .Content }}
+
+        TAG : 
+        {{ range .Params.yop }}
+        {{ . }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
   </section>
 {{ end }}

@@ -1,9 +1,6 @@
 .fond-0 {
     background-color: hsl(0 100% 100% / 0);
   }
-.body {
-    background-color: black;
-}
 .intro {
     background: linear-gradient(to right, rgba(17, 24, 33, 0.85), rgba(17, 24, 33, 0.85)),url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80');    
 }
@@ -18,5 +15,11 @@ hr {
   background-color: #00B4D6;
 }
 section { 
+  background-color: #111821;
+}
+.footer {
+  background-color: #1a2532;
+}
+html {
   background-color: #111821;
 }
