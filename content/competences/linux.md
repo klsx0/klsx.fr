@@ -1,6 +1,9 @@
 ---
-title: 'Communication'
-yop: [t=yesy,thrssee,four]
+title: 'Linux'
+tags: 'technique'
+related:
+  - /realisations/si_cocoricom
+description: "La communication est la capacité à échanger et à transmette une information à différentes personnes. Cette communication peut se faire aussi bien par écrit que par oral."
 ---
 
 # Pourquoi communiquer ?

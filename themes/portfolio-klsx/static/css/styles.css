@@ -114,3 +114,20 @@ p {
 .card {
   background-color: #080c11;
 }
+
+.active {
+    background-color: #B90000 !important;
+    color: white !important;
+}
+hr.comp {
+  background-color: #5479a4;
+}
+
+.top {
+  position: fixed;
+  right: 2%;
+  bottom: 0;
+}
+.up {
+  color: #5479a4
+}
