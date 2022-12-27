@@ -108,3 +108,9 @@ p {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+.image-block {
+  object-fit: cover !important;
+}
+.card {
+  background-color: #080c11;
+}
