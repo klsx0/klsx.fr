@@ -1,9 +1,10 @@
 ---
-title: 'Linux'
-tags: 'technique'
+title: 'Communication'
+level: "Avancé"
+tags: 'humaine'
 related:
-  - /realisations/si_cocoricom
-description: "La communication est la capacité à échanger et à transmette une information à différentes personnes. Cette communication peut se faire aussi bien par écrit que par oral."
+  - /realisations/exemple
+description: 'La communication est la capacité à échanger et à transmette une information à différentes personnes. Cette communication peut se faire aussi bien par écrit que par oral.'
 ---
 
 # Pourquoi communiquer ?

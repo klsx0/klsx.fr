@@ -1,4 +1,4 @@
- De nature perfectionniste et persévérante, il est important pour moi que le travail soit bien fait et ce n’est
+ <!-- De nature perfectionniste et persévérante, il est important pour moi que le travail soit bien fait et ce n’est
 pas des difficultés qui vont m’empêcher d’atteindre les objectifs que je me serais fixés.  
 Depuis toujours, je mets un point d’honneur à aider les autres lorsqu’ils en ont besoin.  
 Pour moi, l’entraide est un choix de vie qui mène à l’épanouissement et au partage. Pour moi, rien n'est plus gratifiant que de se sentir utile et de
@@ -20,5 +20,5 @@ Suite à l’obtention de mon baccalauréat, j’ai commencé ma formation d’e
 Aujourd’hui, étant arrivé à terme de ma formation et ayant accumulé deux années d’expérience en entreprise, je
 souhaite continuer dans le développement d’applications, de préférence web.  
 Grâce à mon alternance, j’ai l’opportunité de faire du développement mobile. Ce projet m’a donné envie d’explorer cette voie pour la
-réalisation d’un futur projet personnel.
-      </span>
+réalisation d’un futur projet personnel. -->
+A rédiger

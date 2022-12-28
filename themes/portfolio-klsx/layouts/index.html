@@ -1,11 +1,13 @@
 {{ define "main" }}
 
 {{- partial "intro" . -}}
-
-{{- partial "propos" . -}}
-
-{{- partial "parcours" . -}}
-
-{{- partial "certifs" . -}}
+<div class="container">
+    
+    {{- partial "propos" . -}}
+    
+    {{- partial "parcours" . -}}
+    
+    {{- partial "certifs" . -}}
+</div>
 
 {{ end }}
