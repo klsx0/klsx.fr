@@ -24,7 +24,7 @@
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
-                                    <p class="title is-4">{{ .Title }} - <strong class="{{ .Params.Level | lower  }}">{{ .Params.Level }}</strong></p>
+                                    <p class="title is-4">{{ .Title }} - <strong class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong></p>
                                     <p class="subtitle is-6"> {{ .Description }}</p>
                                     <hr class="comp">
                                 </div>

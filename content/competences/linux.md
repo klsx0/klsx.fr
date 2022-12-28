@@ -4,11 +4,13 @@ level: "Expert"
 tags: 'technique'
 picPath: comp/linux.jpg
 related:
-  - /realisations/creation_si
-  
+  - /realisations/amelioration_si
+  - /competences/scripting
+  - /competences/containerisation
+  - /competences/securite_info
 description: "Linux <3"
 ---
-## Contexte
+# Contexte
 
 Linux n’est pas un système d’exploitation, il s’agit uniquement d’un noyau (ou Kernel en anglais) crée en 1991 par Linus Torvald.
 
@@ -45,7 +47,7 @@ L’utilisation d’Ubuntu m’a alors permis d’en apprendre un peu sur les ma
 
 [En savoir plus sur mon HomeLab](https://www.notion.so/HomeLab-1be8fb65829d43deb041ea5459b05f94).
 
-## Autocritique
+# Autocritique
 
 J'utilise Linux depuis le début de mon apprentissage en informatique. Vers mes 15 ans j’ai commencé à créer des machines virtuelles pour tester des distributions Linux. Au début, je naviguais uniquement avec l’interface graphique, puis petit à petit, je suis passé totalement en ligne de commande.
 
@@ -65,7 +67,7 @@ Vraiment passionné par la technologie que j’ai voulu transmettre cette passio
 
 Pour apprendre Linux je n’ai pas opté pour la manière la plus simple et la plus rapide, je suis passé par une longue phase d’apprentissage, cependant, j’ai pu prendre le temps et voir naitre une vraie passion pour ce sujet.
 
-## Conclusion
+# Conclusion
 
 A travers de nombreux projets, notamment la gestion de serveurs Linux dans un cadre professionnel ou la réalisation d’un environnement d’apprentissage, je pense avoir un bon niveau dans cette compétence.
 
