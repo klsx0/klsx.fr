@@ -5,10 +5,15 @@
         <h1 class="title ">Compétences</h1>
     </div>
     <div class="container">
-
+        <div class="container ">
+            <div class="selector mb-5">
+                <button class="button btn-default filter-button active" data-filter="all">Toutes</button>
+                <button class="button btn-default filter-button" data-filter="humaine">Humaines</button>
+                <button class="button btn-default filter-button" data-filter="technique">Techniques</button>  
+            </div>
         <div class="columns is-multiline">
             {{ range .Pages }}
-            <div class="column is-half">
+            <div class="column is-half filter  {{ .Params.tags }}">
                 <a href="{{ .RelPermalink }}">
                     <div class="card">
                         <div class="card-image">
@@ -19,7 +24,7 @@
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
-                                    <p class="title is-4">{{ .Title }} - {{ .Params.Level }}</p>
+                                    <p class="title is-4">{{ .Title }} - <strong class="{{ .Params.Level | lower  }}">{{ .Params.Level }}</strong></p>
                                     <p class="subtitle is-6"> {{ .Description }}</p>
                                     <hr class="comp">
                                 </div>

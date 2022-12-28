@@ -1,12 +1,46 @@
 {{ define "main" }}
 <section class="section is-medium">
-  <h1 class="title has-text-centered">{{ .Title }}</h1>
   <div class="columns is-centered">
     <div class="column is-7">
+      <h1 class="title has-text-centered">{{ .Title }}</h1>
+      <figure class="image is-3by1 article">
+        <img class="image-block" src="/img/{{ .Params.PicPath }}" alt="">
+      </figure>
       <div class="content">
         {{ .Content }}
       </div>
+      <h1 class="title has-text-centered">En lien</h1>
+      <hr>
+      <br>
+      {{ with .Params.related }}
+      <div class="columns is-multiline">
+
+        {{ range . }}
+        {{ with site.GetPage . }}
+        <div class="column is-half">
+          <a href="{{ .RelPermalink }}">
+              <div class="card">
+                  <div class="card-image">
+                      <figure class="image is-3by1 article">
+                          <img class="image-block" src="/img/{{ .Params.PicPath }}" alt="Placeholder image">
+                      </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="media">
+                          <div class="media-content">
+                              <p class="title is-4">{{ .Title }}</p>
+                              <p class="subtitle is-6"> {{ .Description }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </a>
+      </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
     </div>
   </div>
-  </section>
+</section>
 {{ end }}

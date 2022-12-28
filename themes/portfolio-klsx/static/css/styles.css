@@ -134,5 +134,22 @@ hr.comp {
 
 .article {
   margin-left: 0 !important;
-  
+  margin-bottom: 1rem !important;
+}
+
+strong {
+  color: #00B4D6 !important;
+}
+.expert {
+  color: #81B900 !important;
+}
+.confirmé {
+  color: #B90000 !important;
+}
+.autonome {
+  color: #00B4D6 !important;
+}
+
+h1 {
+  color: #00B4D6 !important;
 }

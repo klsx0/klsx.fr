@@ -1,10 +1,11 @@
 ---
-title: 'Adapation'
-level: "Expertise"
+title: 'Adaptation'
+level: "Expert"
 tags: 'humaine'
-picPath: comp/communication.jpg
+picPath: comp/adaptation.jpg
 related:
-  - /realisations/exemple
+  - /realisations/creation_si
+  
 description: "La compétence d'adaptation peut être définie comme la capacité à s'adapter rapidement à des conditions changeantes. Le but est d'être capable d'apprendre de nouvelles compétences ou méthodes rapidement et facilement."
 ---
 
