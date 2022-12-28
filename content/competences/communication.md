@@ -1,7 +1,8 @@
 ---
 title: 'Communication'
-level: "Avancé"
+level: "Bonne Maitrise"
 tags: 'humaine'
+picPath: comp/communication.jpg
 related:
   - /realisations/exemple
 description: 'La communication est la capacité à échanger et à transmette une information à différentes personnes. Cette communication peut se faire aussi bien par écrit que par oral.'
