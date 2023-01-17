@@ -1,5 +1,6 @@
 ---
 title: 'Stage - Cocoricom'
+picPath: comp/adaptation.jpg
 related:
     - /realisations/creation_si
     - /competences/gestion_projet

@@ -1,5 +1,6 @@
 ---
 title: 'Alternance - Fonroche Lighting'
+picPath: comp/adaptation.jpg
 related:
  - /competences/infra
  - /competences/gestion_projet

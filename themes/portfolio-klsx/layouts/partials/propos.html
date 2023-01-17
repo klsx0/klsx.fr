@@ -5,7 +5,9 @@
     <br>
     <div class="columns is-centered is-vcentered mx-5 px-5">
       <div class="column is-two-fifths">
-        <img src="/img/about.jpg" width="75%" alt="">
+        {{ $asset := resources.Get "images/intro/about.jpg" }}
+        {{ $img := $asset.Fit "500x500" }}
+        <img src="{{ $img.RelPermalink }}" width="" alt="">
       </div>
       <div class="column content has-text-justified">
         <span class="subtitle">

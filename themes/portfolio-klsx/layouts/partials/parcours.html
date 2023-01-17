@@ -18,9 +18,10 @@
           </div>
           <div class="columns is-centered is-vcentered ml-2">
             <a href="https://www.fonroche-eclairagesolaire.fr/">
-
+              {{ $asset := resources.Get "images/parcours/fl.jpg" }}
+              {{ $img := $asset.Fit "96x96" }}
               <figure class="image is-96x96">
-                <img src="/img/fl.jpg" alt="Image">
+                <img src="{{ $img.RelPermalink }}" alt="Image">
               </figure>
             </a>
           </div>
@@ -44,8 +45,10 @@
             <div class="container">
 
               <a href="http://cocoricom.fr">
+                {{ $asset := resources.Get "images/parcours/cocoricom.png" }}
+                {{ $img := $asset.Fit "96x96" }}
                 <figure class="image">
-                  <img src="/img/cocoricom.png" alt="Image">
+                  <img src="{{ $img.RelPermalink }}" alt="Image">
                 </figure>
               </a>
             </div>
@@ -68,8 +71,10 @@
           </div>
           <div class="columns is-centered is-vcentered ml-2">
             <a href="http://groupe-aen.info/">
+              {{ $asset := resources.Get "images/parcours/aen.png" }}
+              {{ $img := $asset.Fit "96x96" }}
               <figure class="image is-96x96">
-                <img src="/img/aen.png" alt="Image">
+                <img src="{{ $img.RelPermalink }}" alt="Image">
               </figure>
             </a>
           </div>

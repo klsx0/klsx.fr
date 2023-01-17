@@ -1,5 +1,6 @@
 ---
 title: 'Formation - Intech'
+picPath: comp/adaptation.jpg
 related:
  - /realisations/coding_gouter
 ---
