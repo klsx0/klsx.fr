@@ -9,23 +9,21 @@ related:
 description: "La conteneurisation est une approche innovante qui permet aux entreprises de déployer leurs applications avec une grande facilité et de manière reproductible."
 ---
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84682539-6428-4d89-bc86-f19d0d83027f/Untitled.png)
-
 # À quoi sert la conteneurisation ?
 
 La conteneurisation est une technique informatique qui consiste à empaqueter une application avec toutes ses dépendances, de manière à ce qu'elle puisse être exécutée de manière fiable et reproductible sur n'importe quel environnement. En d'autres termes, elle permet de créer une image de l'application, avec tout ce dont elle a besoin pour fonctionner, et de la déployer sur n'importe quel système d'exploitation ou infrastructure.
 
 La conteneurisation informatique est de plus en plus adoptée en raison de ses avantages en termes d'efficacité et de coût. Selon un rapport sur le marché des conteneurs d'applications, plus de 3,5 millions d'applications ont été placées dans des conteneurs à l'aide de la technologie Docker, et plus de 37 milliards d'applications conteneurisées ont été téléchargées, ce qui encourage l'utilisation accrue des conteneurs pour la gestion des applications.
 
-Pour en savoir plus sur le marché de la conteneurisation, consultez le lien suivant :
-[https://www.mordorintelligence.com/fr/industry-reports/application-container-market](https://www.mordorintelligence.com/fr/industry-reports/application-container-market)
+
+[Etude sur le marché de la conteneurisation](https://www.mordorintelligence.com/fr/industry-reports/application-container-market)
 
 # Mon expérience
 
 J'ai également utilisé la conteneurisation sur un projet personnel visant à mettre en place une infrastructure de test pour une application web. Pour cela, j'ai utilisé Docker pour créer une image de l'application et la déployer sur un serveur de test. Cette démarche m'a permis de tester l'application de manière fiable et reproductible. Grâce à cette compétence, j'ai également réussi à réduire les problèmes de configuration et de dépendances, ce qui a permis de gagner du temps et de faciliter le déploiement de l'application. Ce projet m'a permis de découvrir et de mettre en pratique de nouvelles technologies, telles que l'intégration continue et Kubernetes.
 
 Kubernetes est un outil open source très populaire dans le milieu professionnel pour gérer et déployer des conteneurs Docker sur plusieurs machines simultanément. Sa configuration et ses fonctionnalités sont assez complexes. Il est fréquemment utilisé pour gérer des applications dans des environnements cloud.
-[https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/](https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/)
+[Explication sur le fonctionnement de Kubernetes](https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/)
 
 En utilisant ces outils, j'ai pu automatiser les tests de l'application et mettre en place une infrastructure de déploiement automatisé. Ceci m'a permis de gagner du temps et de faciliter le déploiement de l'application.
 
@@ -39,7 +37,7 @@ Mon expérience m'a permis de créer une image de l'API et de l'application web 
 
 En utilisant la conteneurisation, j'ai pu mettre en place une infrastructure fiable et scalable pour l'API et l'application web, contribuant ainsi à améliorer leur qualité et performance pour les utilisateurs. Mon expertise a été un atout majeur pour ce projet et m'a permis de résoudre les problèmes de dépendances et de configuration, contribuant ainsi à la réussite du projet.
 
-[En savoir plus sur la création d’infrastructures.](https://www.notion.so/Infrastructures-informatiques-e5c97e63e2d641f582cf291a025c4bb4) 
+[En savoir plus sur la création d’infrastructures.](/competences/infra) 
 
 # Ma pratique quotidienne
 
@@ -55,9 +53,9 @@ Il est également important de connaître les concepts de gestion des conteneurs
 
 Voici quelques liens qui m'ont aidé à apprendre Docker :
 
-- Tutoriels officiels de Docker : **[https://docs.docker.com/get-started/](https://docs.docker.com/get-started/)**
-- Environnements interactifs de Docker en ligne : **[https://training.play-with-docker.com/](https://training.play-with-docker.com/)**
-- Exercices simples de Docker : **[https://docker-curriculum.com/](https://docker-curriculum.com/)**
+-  [Tutoriels officiels de Docker](https://docs.docker.com/get-started/)
+-  [Environnements interactifs Docker en ligne](https://training.play-with-docker.com/)
+-  [Exercices simples Docker](https://docker-curriculum.com/)
 - Cours théoriques :
     - [OpenClassrooms](https://openclassrooms.com/fr/courses/2035766-optimisez-votre-deploiement-en-creant-des-conteneurs-avec-docker)
     - [Codecademy](https://www.codecademy.com/learn/learn-docker)
