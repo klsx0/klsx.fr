@@ -61,4 +61,4 @@ Si je devais donner un conseil pour les années à venir, ce serait de ne jamais
 
 Mon prochain objectif est l'apprentissage du cloud. J'ai toujours travaillé avec des infrastructures dont les serveurs étaient en local ou dédiés chez des hébergeurs classiques. Le cloud est de plus en plus répandu dans l'informatique et offre de nombreux avantages (disponibilité, prix, puissance, évolutivité).
 
-Pour m'aider à atteindre cet objectif, j'aimerais commencer par suivre une formation sur l'utilisation du cloud AWS d'Amazon, car c'est la plus généraliste et la plus reconnue. "[Architecting on AWS](https://aws.amazon.com/fr/training/classroom/architecting-on-aws/)" est une certification qui me permettrait d'acquérir les bases de l'architecture informatique dans le cloud.
+Pour m'aider à atteindre cet objectif, j'aimerais commencer par suivre une formation sur l'utilisation du cloud AWS d'Amazon, car c'est la plus généraliste et la plus reconnue.[Architecting on AWS](https://aws.amazon.com/fr/training/classroom/architecting-on-aws/) est une certification qui me permettrait d'acquérir les bases de l'architecture informatique dans le cloud.
