@@ -1,6 +1,6 @@
 ---
 title: 'Adaptation'
-level: "autonome"
+level: "Expert"
 tags: 'humaine'
 picPath: comp/adaptation.jpg
 related:
