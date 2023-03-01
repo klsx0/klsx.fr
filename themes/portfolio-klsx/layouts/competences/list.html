@@ -29,20 +29,22 @@
                                 <div class="media-content">
                                     <p class="title is-4">{{ .Title }} - <strong class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong></p>
                                     <p class="subtitle is-6"> {{ .Description }}</p>
-                                    <hr class="comp">
                                 </div>
                             </div>
-                            <div class="content">
-                                <p class="subtitle is-6">En lien avec</p>
-                                {{ with .Params.related }}
-                                {{ range . }}
-                                {{ with site.GetPage . }}
-                                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                                {{ end }}
-                                {{ end }}
-                                {{ end }}
-                            </div>
                         </div>
+                        <footer class="card-footer">
+                            <div class="card-content mb-5">
+                                <hr class="comp">
+                                    <p class="subtitle is-6">En lien avec</p>
+                                    {{ with .Params.related }}
+                                    {{ range . }}
+                                    {{ with site.GetPage . }}
+                                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                                    {{ end }}
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                          </footer>
                     </div>
                 </a>
             </div>
