@@ -24,10 +24,13 @@
                                 <div class="media-content">
                                     <p class="title is-4">{{ .Title }}</p>
                                     <p class="subtitle is-6"> {{ .Description }}</p>
-                                    <hr class="comp">
                                 </div>
                             </div>
-                            <div class="content">
+
+                        </div>
+                        <footer class="card-footer">
+                            <div class="card-content mb-5">
+                                <hr class="comp">
                                 <p class="subtitle is-6">En lien avec</p>
                                 {{ with .Params.related }}
                                 {{ range . }}
@@ -37,7 +40,7 @@
                                 {{ end }}
                                 {{ end }}
                             </div>
-                        </div>
+                        </footer>
                     </div>
                 </a>
             </div>

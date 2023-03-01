@@ -9,32 +9,34 @@
             <div class="selector mb-5">
                 <button class="button btn-default filter-button active" data-filter="all">Toutes</button>
                 <button class="button btn-default filter-button" data-filter="humaine">Humaines</button>
-                <button class="button btn-default filter-button" data-filter="technique">Techniques</button>  
+                <button class="button btn-default filter-button" data-filter="technique">Techniques</button>
             </div>
-        <div class="columns is-multiline">
-            {{ range .Pages }}
-            <div class="column is-half filter  {{ .Params.tags }}">
-                <a href="{{ .RelPermalink }}">
-                    <div class="card">
-                        {{ $imagePath := printf "images/%s" .Params.PicPath }}
-                        {{ $asset := resources.Get $imagePath }}
-                        {{ $img := $asset.Resize "x600 webp picture" }}
-                        <div class="card-image">
-                            <figure class="image is-3by1 article">
-                                <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">{{ .Title }} - <strong class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong></p>
-                                    <p class="subtitle is-6"> {{ .Description }}</p>
+            <div class="columns is-multiline">
+                {{ range .Pages }}
+                <div class="column is-half filter  {{ .Params.tags }}">
+                    <a href="{{ .RelPermalink }}">
+                        <div class="card">
+                            {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                            {{ $asset := resources.Get $imagePath }}
+                            {{ $img := $asset.Resize "x600 webp picture" }}
+                            <div class="card-image">
+                                <figure class="image is-3by1 article">
+                                    <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">{{ .Title }} - <strong
+                                                class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong>
+                                        </p>
+                                        <p class="subtitle is-6"> {{ .Description }}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <footer class="card-footer">
-                            <div class="card-content mb-5">
-                                <hr class="comp">
+                            <footer class="card-footer">
+                                <div class="card-content mb-5">
+                                    <hr class="comp">
                                     <p class="subtitle is-6">En lien avec</p>
                                     {{ with .Params.related }}
                                     {{ range . }}
@@ -44,13 +46,13 @@
                                     {{ end }}
                                     {{ end }}
                                 </div>
-                          </footer>
-                    </div>
-                </a>
+                            </footer>
+                        </div>
+                    </a>
+                </div>
+                {{ end  }}
             </div>
-            {{ end  }}
         </div>
-    </div>
     </div>
 
 </section>
