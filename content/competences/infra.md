@@ -7,7 +7,7 @@ related:
   - /realisations/creation_si
   - /realisations/homelab
   - /realisations/amelioration_si
-description: "Dans un monde en constante évolution, il est crucial de concevoir des infrastructures informatiques évolutives pour répondre aux besoins spécifiques de chaque service d'une entreprise et être compétitif. Ainsi, cette compétence est essentielle pour assurer la durabilité et la performance des systèmes informatiques."
+description: "Dans un monde en constante évolution, il est crucial de concevoir des infrastructures informatiques évolutives pour répondre aux besoins spécifiques de chaque service d'une entreprise et être compétitif."
 ---
 
 # Contexte

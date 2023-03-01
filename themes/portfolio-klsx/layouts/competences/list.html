@@ -37,11 +37,11 @@
                             <footer class="card-footer">
                                 <div class="card-content mb-5">
                                     <hr class="comp">
-                                    <p class="subtitle is-6">En lien avec</p>
+                                    <p class="subtitle is-6">Réalisations en lien</p>
                                     {{ with .Params.related }}
                                     {{ range . }}
                                     {{ with site.GetPage . }}
-                                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                                    <a class="mr-3" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
                                     {{ end }}
                                     {{ end }}
                                     {{ end }}
