@@ -36,7 +36,7 @@ L'une des choses sur lesquelles j'ai travaillé était la configuration de la s�
 
 J'ai également travaillé sur l'optimisation de l'utilisation des différentes applications de la suite Office 365, telles que Word, Excel et Outlook. J'ai créé un guide de bonnes pratiques pour l'utilisation de ces applications, qui comprenait des conseils pour travailler de manière efficace et collaborative, ainsi que des astuces pour utiliser les fonctionnalités qui ne sont pas forcément connues mais qui sont très utiles.
 
-[En savoir plus sur l'optimisation des outils informatiques en entreprise durant mon alternance.](https://www.notion.so/Am-lioration-d-un-SI-existant-ba1f2b634d394bd6b95b8e9c387b7e14)
+[En savoir plus sur l'optimisation des outils informatiques en entreprise durant mon alternance.](/realisations/amelioration_si)
 
 # Mon niveau
 
