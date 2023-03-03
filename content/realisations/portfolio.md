@@ -5,7 +5,7 @@ related:
   - /competences/scripting
   - /competences/conteneurisation
   - /competences/gestion_projet
-description: "La création d'un coding goûter avec des CM2 est une initiative qui vise à encourager les enfants à découvrir le monde de la programmation. Cette activité permettra aux enfants de découvrir les bases de la programmation en utilisant des outils simples et ludiques qui leur permettront de développer leurs compétences tout en s'amusant."
+description: "La création d'un portfolio est une étape importante pour tout professionnel qui souhaite mettre en valeur ses réalisations et ses compétences. C'est un site web personnel qui permet de présenter de manière claire et concise son parcours, son expérience, ses projets et ses réalisations."
 ---
 
 # Le projet

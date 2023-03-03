@@ -18,7 +18,7 @@ Le code de ce noyau est accessible librement en lecture et à la modification, c
 
 Pour découvrir de nouvelles distributions Linux : [DistroWatch.com](https://distrowatch.com/)
 
-Dans le monde professionnel, Windows reste toujours le plus utilisé pour les ordinateurs de bureau et les serveurs (70 % du marché). Cependant, les systèmes basés sur Linux sont très utilisés sur les services Cloud et l'embarqué (environ 90 %) [(source)](https://frameboxxindore.com/fr/android/your-question-what-percentage-of-cloud-workloads-run-on-linux.html).
+Dans le monde professionnel, Windows reste toujours le plus utilisé pour les ordinateurs de bureau et les serveurs (70 % du marché). Cependant, les systèmes basés sur Linux sont très utilisés sur les services Cloud et l'embarqué (environ la moitié) [(source)](https://www.redhat.com/en/resources/state-of-linux-in-public-cloud-for-enterprises).
 Depuis le début de mon apprentissage en informatique, j'utilise des distributions Linux.
 J'ai eu l'occasion d'utiliser cette compétence à la fois dans un contexte professionnel et personnel.
 

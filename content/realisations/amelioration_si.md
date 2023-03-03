@@ -61,6 +61,6 @@ Mon apport sur le projet a été primordial dans la mise en place de différente
 
 Cette expérience m'a également permis de développer mes compétences en communication et en gestion de projet, notamment dans le suivi des différents projets menés avec les équipes internes. J'ai également appris à travailler en équipe et à collaborer avec des personnes aux profils variés.
 
-Cette alternance m'a permis de découvrir le domaine de la DevOps, un domaine dans lequel je souhaite m'orienter à l'avenir. J'ai pris conscience de l'importance de la mise en place de processus et d'outils automatisés pour améliorer l'efficacité des développements et faciliter la communication entre les différentes équipes.
+Cette alternance m'a permis de découvrir le domaine du DevOps, un domaine dans lequel je souhaite m'orienter à l'avenir. J'ai pris conscience de l'importance de la mise en place de processus et d'outils automatisés pour améliorer l'efficacité des développements et faciliter la communication entre les différentes équipes.
 
 Pour l'entreprise, les solutions mises en place ont permis d'améliorer la productivité et de faciliter le travail des collaborateurs. Pour moi, cette expérience a été très enrichissante et m'a permis de renforcer mes compétences en développement et en infrastructure informatique. Je suis convaincu que cette expérience me sera très utile pour mes projets futurs et pour poursuivre mon évolution professionnelle.

@@ -14,7 +14,7 @@ Dans le cadre de ma passion pour l'informatique, j'ai entrepris un projet person
 
 En effet, je désirais approfondir mes connaissances en informatique et développer mes compétences dans la mise en place de systèmes complexes. La virtualisation m'est apparue comme un outil idéal pour atteindre cet objectif, car elle permet de créer des environnements virtuels indépendants les uns des autres, ce qui facilite grandement la gestion et la maintenance des systèmes.
 
-Dans le cadre de ce projet, j'ai envisagé de virtualiser plusieurs serveurs, tels qu'un serveur Windows Server 2019, des services d'intégration continue comme Gitlab CI, des serveurs de stockage de fichiers d'entreprises, des serveurs Linux, etc. L'enjeu était donc de mettre en place un environnement de virtualisation performant et sécurisé pour héberger ces différentes machines virtuelles.
+Dans le cadre de ce projet, j'ai envisagé de virtualiser plusieurs serveurs, tels que Windows Server 2019, des services d'intégration continue comme Gitlab CI, des services de stockage de fichiers d'entreprises, des systèmes d'exploitation basés sur Linux, etc. L'enjeu était donc de mettre en place un environnement de virtualisation performant et sécurisé pour héberger ces différentes machines virtuelles.
 
 Les risques liés à ce projet étaient multiples, notamment en termes de sécurité des données stockées et de stabilité du système de virtualisation. C'est pourquoi j'ai pris le temps d'analyser les besoins de ce projet et de rechercher les solutions les plus adaptées pour y répondre. La suite de cet article présentera les différentes étapes de mise en œuvre de ce projet ainsi que mon retour d'expérience.
 

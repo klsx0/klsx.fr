@@ -4,6 +4,7 @@ picPath: comp/adaptation.jpg
 related:
  - /competences/infra
  - /competences/gestion_projet
+ - /competences/conteneurisation
 ---
 Pendant mes 2 années d'alternance chez Fonroche Lighting, j'ai eu l'opportunité de travailler en tant qu'administrateur système et réseau au sein de l'entreprise. En tant qu'alternant, j'ai été encadré par le responsable du service informatique et j'ai eu l'opportunité de travailler sur des projets stratégiques pour l'entreprise.
 
