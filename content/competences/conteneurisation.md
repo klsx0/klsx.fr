@@ -1,11 +1,12 @@
 ---
 title: 'Conteneurisation informatique'
-level: "confirmé"
+level: "Expert"
 tags: 'technique'
 picPath: comp/dock.jpg
 related:
   - /realisations/amelioration_si
   - /realisations/homelab
+  - /realisations/portfolio
 description: "La conteneurisation est une approche innovante qui permet aux entreprises de déployer leurs applications avec une grande facilité et de manière reproductible."
 ---
 

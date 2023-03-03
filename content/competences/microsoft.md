@@ -1,6 +1,6 @@
 ---
 title: 'L’écosystème Microsoft'
-level: "confirmé"
+level: "autonome"
 tags: 'technique'
 picPath: comp/microsoft.jpg
 related:
