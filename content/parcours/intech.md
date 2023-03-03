@@ -2,7 +2,8 @@
 title: 'Formation - Intech'
 picPath: comp/adaptation.jpg
 related:
- - /realisations/coding_gouter
+ - /realisations/gouter
+ - realisations/homelab
 ---
 Intech Agen est une école qui se distingue par sa pédagogie par projet. Cela signifie que les étudiants travaillent sur des projets concrets, en lien avec des professionnels ou des associations, tout au long de leur formation. Cette approche permet aux étudiants de mettre en pratique les connaissances théoriques acquises tout en développant leurs compétences professionnelles.
 
