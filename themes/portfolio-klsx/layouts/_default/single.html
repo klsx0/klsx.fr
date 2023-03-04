@@ -20,7 +20,7 @@
 
         {{ range . }}
         {{ with site.GetPage . }}
-        <div class="column is-half">
+        <div class="column">
           <a href="{{ .RelPermalink }}">
               <div class="card">
                 {{ $imagePath := printf "images/%s" .Params.PicPath }}
