@@ -63,7 +63,7 @@ html {
 .title {
   color: white !important;
   font-family: 'Roboto', sans-serif;
-
+  font-size: 1.8rem;
 }
 h1 {
   color: white !important;
@@ -166,4 +166,13 @@ h1 {
 .card-footer {
   margin-top: auto;
   border-top: none;
+}
+.links {
+  color: #5479a4
+}
+h2 {
+  color: #5479a4 !important;
+}
+li {
+  color: white !important;
 }

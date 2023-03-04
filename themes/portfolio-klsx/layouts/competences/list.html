@@ -27,8 +27,8 @@
                             <div class="card-content">
                                 <div class="media">
                                     <div class="media-content">
-                                        <p class="title is-4">{{ .Title }} - <strong
-                                                class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong>
+                                        <p class="title is-4"><b>{{ .Title }} - <strong
+                                                class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong></b>
                                         </p>
                                         <p class="subtitle is-6"> {{ .Description }}</p>
                                     </div>
@@ -41,7 +41,7 @@
                                     {{ with .Params.related }}
                                     {{ range . }}
                                     {{ with site.GetPage . }}
-                                    <a class="mr-3" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                                    <a class="links mr-3" href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a>
                                     {{ end }}
                                     {{ end }}
                                     {{ end }}
