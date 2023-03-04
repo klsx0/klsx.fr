@@ -94,7 +94,7 @@ Voici quelques exemples de mon thème personnalisé :
 
 La première page de mon site est simplement un appel de modules.
 
-```
+```html
 {{ define "main" }}
 
 {{- partial "intro" . -}}
@@ -111,7 +111,7 @@ La première page de mon site est simplement un appel de modules.
 
 Voici le contenu de la partie “propos” :
 
-```
+```html
 <section class="section has-text-centered pres ">
     <h1 class="title">A propos de moi</h1>
     <hr>
