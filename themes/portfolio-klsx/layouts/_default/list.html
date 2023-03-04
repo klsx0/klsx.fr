@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+<section class="section mt-6">
+    <div class="has-text-centered mb-5">
+        <h1 class="title ">{{ .Title }}</h1>
+    </div>
+    <div class="container">
+
+        <div class="columns is-multiline">
+            {{ range .Pages }}
+            <div class="column is-half">
+                <a href="{{ .RelPermalink }}">
+                    <div class="card">
+                        {{ $imgRender := "/img/background.avif" }}
+                        {{ if isset .Params "PicPath" }}
+                            {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                            {{ $asset := resources.Get $imagePath }}
+                            {{ $imgRender := $asset.Resize "x600 webp picture" }}
+                        {{ end }}
+                        <div class="card-image">
+                            <figure class="image is-3by1">
+                                <img class="image-block" src="{{ $imgRender }}" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ .Title }}</p>
+                                    <p class="subtitle is-6"> {{ .Description }}</p>
+                                    <hr class="comp">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p class="subtitle is-6">En lien avec</p>
+                                {{ with .Params.related }}
+                                {{ range . }}
+                                {{ with site.GetPage . }}
+                                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                                {{ end }}
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            {{ end  }}
+        </div>
+    </div>
+    </div>
+
+</section>
+
+
+
+{{ end }}

@@ -1,0 +1,175 @@
+<section class="section">
+  <h1 class="title has-text-centered">Mon parcours</h1>
+  <hr>
+  <br>
+  <br>
+  <!-- For mobiles -->
+  <div class="timeline is-centered is-hidden-mobile">
+    <header class="timeline-header">
+    </header>
+    <div class="timeline-item">
+      <div class="timeline-marker point-blue"></div>
+      <div class="timeline-content has-text-centered">
+        <div class="columns mb-5">
+          <div class="column">
+            <p class="parcours-header">Alternance à Fonroche Lighting</p>
+            <p class="heading"> De septembre 2021 à août 2023 - 2 ans</p>
+            <p class="heading">Poste : Administrateur Système et réseau</p>
+          </div>
+          <div class="columns is-centered is-vcentered ml-2">
+            <a href="https://www.fonroche-eclairagesolaire.fr/">
+              {{ $asset := resources.Get "images/parcours/fl.jpg" }}
+              {{ $img := $asset.Fit "96x96" }}
+              <figure class="image is-96x96">
+                <img src="{{ $img.RelPermalink }}" alt="Image">
+              </figure>
+            </a>
+          </div>
+        </div>
+
+        <a class="button red" href="/parcours/fonroche-lighting">Une expérience formatrice </a>
+
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker point-blue">
+      </div>
+      <div class="timeline-content mx-5">
+        <div class="columns mb-5  has-text-left">
+          <div class="column is-three-quarters mr-5">
+            <p class="parcours-header ">Stage à Cocoricom </p>
+            <p class="heading"> De fevrier 2021 à août 2021 - 6 mois</p>
+            <p class="heading ">Poste : Assistant transformation numérique</p>
+          </div>
+          <div class="columns is-centered is-vcentered">
+            <div class="container">
+
+              <a href="http://cocoricom.fr">
+                {{ $asset := resources.Get "images/parcours/cocoricom.png" }}
+                {{ $img := $asset.Fit "96x96" }}
+                <figure class="image">
+                  <img src="{{ $img.RelPermalink }}" alt="Image">
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <a class="button green" href="/parcours/cocoricom">Le monde des startups</a>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker point-blue">
+      </div>
+      <div class="timeline-content has-text-centered">
+        <div class="columns mb-5 ">
+          <div class="column ">
+            <p class="parcours-header">Formation Intech du Groupe AEN</p>
+            <p class="heading"> De septembre 2018 à août 2023 - 5 ans</p>
+            <p class="heading ">Filière Système d'Information</p>
+          </div>
+          <div class="columns is-centered is-vcentered ml-2">
+            <a href="http://groupe-aen.info/">
+              {{ $asset := resources.Get "images/parcours/aen.png" }}
+              {{ $img := $asset.Fit "96x96" }}
+              <figure class="image is-96x96">
+                <img src="{{ $img.RelPermalink }}" alt="Image">
+              </figure>
+            </a>
+          </div>
+        </div>
+
+        <a class="button" href="/parcours/intech">Ma formation au monde informatique</a>
+      </div>
+    </div>
+    <header class="timeline-header">
+      <!-- <span class="tag is-medium is-primary">End</span> -->
+    </header>
+  </div>
+
+  <!-- For desktops -->
+  <div class="timeline is-hidden-tablet">
+    <header class="timeline-header">
+    </header>
+    <div class="timeline-item">
+      <div class="timeline-marker point-blue"></div>
+      <div class="timeline-content has-text-centered">
+        <div class="columns mb-5">
+          <div class="column">
+            <p class="parcours-header">Alternance à Fonroche Lighting</p>
+            <p class="heading"> De septembre 2021 à août 2023 - 2 ans</p>
+            <p class="heading">Poste : Administrateur Système et réseau</p>
+          </div>
+          <div class="columns is-centered is-vcentered ml-2">
+            <a href="https://www.fonroche-eclairagesolaire.fr/">
+              {{ $asset := resources.Get "images/parcours/fl.jpg" }}
+              {{ $img := $asset.Fit "96x96" }}
+              <figure class="image is-96x96">
+                <img src="{{ $img.RelPermalink }}" alt="Image">
+              </figure>
+            </a>
+          </div>
+        </div>
+
+        <a class="button red" href="/parcours/fonroche-lighting">Une expérience formatrice </a>
+
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker point-blue">
+      </div>
+      <div class="timeline-content mx-5">
+        <div class="columns mb-5  has-text-left">
+          <div class="column is-three-quarters mr-5">
+            <p class="parcours-header ">Stage à Cocoricom </p>
+            <p class="heading"> De fevrier 2021 à août 2021 - 6 mois</p>
+            <p class="heading ">Poste : Assistant transformation numérique</p>
+          </div>
+          <div class="columns is-centered is-vcentered">
+            <div class="container">
+
+              <a href="http://cocoricom.fr">
+                {{ $asset := resources.Get "images/parcours/cocoricom.png" }}
+                {{ $img := $asset.Fit "96x96" }}
+                <figure class="image">
+                  <img src="{{ $img.RelPermalink }}" alt="Image">
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <a class="button green" href="/parcours/cocoricom">Le monde des startups</a>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-marker point-blue">
+      </div>
+      <div class="timeline-content has-text-centered">
+        <div class="columns mb-5 ">
+          <div class="column ">
+            <p class="parcours-header">Formation Intech du Groupe AEN</p>
+            <p class="heading"> De septembre 2018 à août 2023 - 5 ans</p>
+            <p class="heading ">Filière Système d'Information</p>
+          </div>
+          <div class="columns is-centered is-vcentered ml-2">
+            <a href="http://groupe-aen.info/">
+              {{ $asset := resources.Get "images/parcours/aen.png" }}
+              {{ $img := $asset.Fit "96x96" }}
+              <figure class="image is-96x96">
+                <img src="{{ $img.RelPermalink }}" alt="Image">
+              </figure>
+            </a>
+          </div>
+        </div>
+
+        <a class="button" href="/parcours/intech">Ma formation au monde informatique</a>
+      </div>
+    </div>
+    <header class="timeline-header">
+      <!-- <span class="tag is-medium is-primary">End</span> -->
+    </header>
+  </div>
+</section>

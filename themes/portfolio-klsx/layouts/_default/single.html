@@ -1,0 +1,52 @@
+{{ define "main" }}
+<section class="section is-medium">
+  <div class="columns is-centered">
+    <div class="column is-7">
+      {{ $imagePath := printf "images/%s" .Params.PicPath }}
+      {{ $asset := resources.Get $imagePath }}
+      {{ $img := $asset.Resize "x1200 webp picture" }}
+      <h1 class="title has-text-centered">{{ .Title }}</h1>
+      <figure class="image is-3by1 article">
+        <img class="image-block" src="{{ $img.RelPermalink }}" alt="">
+      </figure>
+      <div class="content">
+        {{ .Content }}
+      </div>
+      <h1 class="title has-text-centered">En lien</h1>
+      <hr>
+      <br>
+      {{ with .Params.related }}
+      <div class="columns is-multiline">
+
+        {{ range . }}
+        {{ with site.GetPage . }}
+        <div class="column">
+          <a href="{{ .RelPermalink }}">
+              <div class="card">
+                {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                {{ $asset := resources.Get $imagePath }}
+                {{ $img := $asset.Resize "x320 webp picture" }}
+                  <div class="card-image">
+                      <figure class="image is-3by1 article">
+                          <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
+                      </figure>
+                  </div>
+                  <div class="card-content mb-5">
+                      <div class="media">
+                          <div class="media-content">
+                              <p class="title is-4">{{ .Title }}</p>
+                              <p class="subtitle is-6"> {{ .Description }}</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </a>
+      </div>
+        {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

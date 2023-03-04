@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+<section class="section mt-6">
+    <div class="has-text-centered mb-5">
+        <h1 class="title ">Compétences</h1>
+    </div>
+    <div class="container">
+        <div class="container ">
+            <div class="selector mb-5">
+                <button class="button btn-default filter-button active" data-filter="all">Toutes</button>
+                <button class="button btn-default filter-button" data-filter="humaine">Humaines</button>
+                <button class="button btn-default filter-button" data-filter="technique">Techniques</button>
+            </div>
+            <div class="columns is-multiline">
+                {{ range .Pages }}
+                <div class="column is-half filter  {{ .Params.tags }}">
+                    <a href="{{ .RelPermalink }}">
+                        <div class="card">
+                            {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                            {{ $asset := resources.Get $imagePath }}
+                            {{ $img := $asset.Resize "x600 webp picture" }}
+                            <div class="card-image">
+                                <figure class="image is-3by1 article">
+                                    <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">{{ .Title }} - <strong
+                                                class="{{ .Params.Level | lower  }}">{{ .Params.Level | humanize }}</strong>
+                                        </p>
+                                        <p class="subtitle is-6"> {{ .Description }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <div class="card-content mb-5">
+                                    <hr class="comp">
+                                    <p class="subtitle is-6">Réalisations en lien</p>
+                                    {{ with .Params.related }}
+                                    {{ range . }}
+                                    {{ with site.GetPage . }}
+                                    <a class="mr-3" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                                    {{ end }}
+                                    {{ end }}
+                                    {{ end }}
+                                </div>
+                            </footer>
+                        </div>
+                    </a>
+                </div>
+                {{ end  }}
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+{{ end }}

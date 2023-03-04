@@ -1,0 +1,18 @@
+<section class="section has-text-centered pres ">
+    <h1 class="title">A propos de moi</h1>
+    <hr>
+    <br>
+    <br>
+    <div class="columns is-centered is-vcentered">
+      <div class="column is-two-fifths">
+        {{ $asset := resources.Get "images/intro/about.jpg" }}
+        {{ $img := $asset.Fit "500x500" }}
+        <img src="{{ $img.RelPermalink }}" width="" alt="">
+      </div>
+      <div class="column content has-text-justified">
+        <span class="subtitle">
+        {{ .Content }}
+        </span>
+      </div>
+    </div>
+  </section>

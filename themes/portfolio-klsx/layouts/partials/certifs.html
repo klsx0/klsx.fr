@@ -1,0 +1,32 @@
+<section class="section has-text-centered">
+  <h1 class="title">Mes certifications</h1>
+  <hr>
+  <br>
+  <br>
+  <div class="columns">
+    <div class="column ">
+      <p class="heading"> Cisco CCNA 3 - 2021</p>
+      {{ $asset := resources.Get "images/certifs/ccna3.jpg" }}
+      {{ $img := $asset.Fit "128x128" }}
+      <figure class="image is-128x128 badge">
+        <img class="is-rounded " src="{{ $img.RelPermalink }}">
+      </figure>
+    </div>
+    <div class="column ">
+      <p class="heading"> Cisco DevNet - 2022</p>
+      {{ $asset := resources.Get "images/certifs/devnet.png" }}
+      {{ $img := $asset.Fit "128x128" }}
+      <figure class="image is-128x128 badge">
+        <img class="is-rounded " src="{{ $img.RelPermalink }}">
+      </figure>
+    </div>
+    <div class="column ">
+      <p class="heading"> Cisco CyberOps - 2022</p>
+      {{ $asset := resources.Get "images/certifs/cyberops.png" }}
+      {{ $img := $asset.Fit "128x128" }}
+      <figure class="image is-128x128 badge">
+        <img class="is-rounded " src="{{ $img.RelPermalink }}">
+      </figure>
+    </div>
+  </div>
+</section>
