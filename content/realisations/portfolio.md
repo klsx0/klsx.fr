@@ -42,9 +42,12 @@ J'ai également pu bénéficier de la synchronisation automatique des pages sur 
 ![Untitled](/img/notion.png)
 
 Quelques ressources utiles que j'ai utilisées pour prendre en main l'outil Notion :
-[https://www.notion.so/fr-fr/help/guides](https://www.notion.so/fr-fr/help/guides)
-[https://www.livementor.com/blog/utiliser-notion](https://www.livementor.com/blog/utiliser-notion/)
-[https://www.youtube.com/watch?v=_HGQKRv-wQI](https://www.youtube.com/watch?v=_HGQKRv-wQI)
+
+[Guide notion officiel](https://www.notion.so/fr-fr/help/guides)
+
+[Article sur l'utilisation de Notion](https://www.livementor.com/blog/utiliser-notion/)
+
+[Chaine youtube Française, parlant de Notion](https://www.youtube.com/watch?v=_HGQKRv-wQI)
 
 ## Rédaction des articles
 
