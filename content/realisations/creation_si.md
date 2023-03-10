@@ -1,11 +1,11 @@
 ---
-title : Création du SI d’une start-up
-picPath : real/cocoricom.jpg
-related :
-- /competences/infra
-- /competences/adaptation
-- /competences/gestion_projet
-description : "La création du SI d'une start-up est un processus complexe qui nécessite une réflexion approfondie sur les objectifs et les besoins de l'entreprise. Cette réalisation implique la conception et la mise en place de différents outils et systèmes informatiques qui permettront à la start-up de fonctionner efficacement et de se développer"
+title: Création du SI d'une start-up
+picPath: real/cocoricom.jpg
+related:
+  - /competences/infra
+  - /competences/adaptation
+  - /competences/gestion_projet
+description: "La création du SI d'une start-up est un processus complexe qui nécessite une réflexion approfondie sur les objectifs et les besoins de l'entreprise. Cette réalisation implique la conception et la mise en place de différents outils et systèmes informatiques qui permettront à la start-up de fonctionner efficacement et de se développer"
 ---
 
 
