@@ -1,0 +1,144 @@
+<section class="section has-text-centered">
+    <h1 class="title">Projets et compétences phares</h1>
+    <hr>
+    <br>
+    <br>
+    <div class="columns">
+
+        {{ with .Site.GetPage "/competences/infra" }}
+        <div class="column filter">
+            <a href="{{ .RelPermalink }}">
+                <div class="card">
+                    {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                    {{ $asset := resources.Get $imagePath }}
+                    {{ $img := $asset.Resize "x600 webp picture" }}
+                    <div class="card-image">
+                        <figure class="image is-3by1 article">
+                            <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4"><b>{{ .Title }}</b>
+                                </p>
+                                <p class="subtitle is-6"> {{ .Description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-content mb-5">
+                            <hr class="comp">
+                            <p class="subtitle is-6">Réalisations en lien</p>
+                            {{ with .Params.related }}
+                            {{ range . }}
+                            {{ with site.GetPage . }}
+                            <a class="links mr-3" href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </footer>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+
+        {{ with .Site.GetPage "/competences/conteneurisation" }}
+        <div class="column">
+            <a href="{{ .RelPermalink }}">
+                <div class="card">
+                    {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                    {{ $asset := resources.Get $imagePath }}
+                    {{ $img := $asset.Resize "x600 webp picture" }}
+                    <div class="card-image">
+                        <figure class="image is-3by1 article">
+                            <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4"><b>{{ .Title }}</b>
+                                </p>
+                                <p class="subtitle is-6"> {{ .Description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-content mb-5">
+                            <hr class="comp">
+                            <p class="subtitle is-6">Réalisations en lien</p>
+                            {{ with .Params.related }}
+                            {{ range . }}
+                            {{ with site.GetPage . }}
+                            <a class="links mr-3" href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </footer>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+
+
+        {{ with .Site.GetPage "/realisations/amelioration_si" }}
+        <div class="column filter">
+            <a href="{{ .RelPermalink }}">
+                <div class="card">
+                    {{ $imagePath := printf "images/%s" .Params.PicPath }}
+                    {{ $asset := resources.Get $imagePath }}
+                    {{ $img := $asset.Resize "x600 webp picture" }}
+                    <div class="card-image">
+                        <figure class="image is-3by1 article">
+                            <img class="image-block" src="{{ $img.RelPermalink }}" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4"><b>{{ .Title }}</b>
+                                </p>
+                                <p class="subtitle is-6"> {{ .Description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-content mb-5">
+                            <hr class="comp">
+                            <p class="subtitle is-6">Compétences en lien</p>
+                            {{ with .Params.related }}
+                            {{ range . }}
+                            {{ with site.GetPage . }}
+                            <a class="links mr-3" href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a>
+                            {{ end }}
+                            {{ end }}
+                            {{ end }}
+                        </div>
+                    </footer>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <a class="button green mr-3" href="/competences">Mes autres compétences</a>
+    <a class="button red mr-3" href="/realisations">Mes autres réalisations</a>
+</section>
