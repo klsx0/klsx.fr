@@ -26,7 +26,7 @@ Lors de cette attaque, j'ai travaillé en étroite collaboration avec le référ
 
 Pendant mon alternance en entreprise chez Fonroche Lighting, j'ai eu l'opportunité de mettre en place des bonnes pratiques de sécurité informatique destinées aux employés non techniques de l'entreprise. Comme de nombreuses entreprises, notre entreprise était confrontée au risque de fuites de données ou de piratages en raison de mauvaises pratiques de sécurité informatique de certains employés.
 
-J'ai rédigé un document de bonnes pratiques de sécurité informatique destiné à tous les employés de l'entreprise. Ce document a couvert un large éventail de sujets, tels que la sécurisation des mots de passe, l'importance de l'authentification multi facteur et les mesures à prendre pour éviter les menaces de phishing.
+J'ai rédigé un document de bonnes pratiques de sécurité informatique destiné à tous les employés de l'entreprise. Ce document a couvert un large éventail de sujets, tels que la sécurisation des mots de passe, l'importance de l'authentification multifacteur et les mesures à prendre pour éviter les menaces de phishing.
 
 Une présentation de ces bonnes pratiques à partir de ce document a été faite par le RSI pour tous les employés de l'entreprise afin de les sensibiliser aux risques liés à la sécurité informatique et de leur fournir les outils nécessaires pour protéger leurs données et celles de l'entreprise.
 

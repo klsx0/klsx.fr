@@ -11,7 +11,7 @@ related:
 description: "La gestion de projet est une compétence transversale qui peut être appliquée dans de nombreux contextes, y compris dans les projets personnels. Elle permet de mieux gérer les tâches et les projets de la vie quotidienne pour maximiser l'efficacité et la productivité."
 ---
 
-# La gestion de projet mais pourquoi faire ?
+# La gestion de projet mais pour quoi faire ?
 
 La gestion de projet est une compétence clé dans le domaine de l'informatique. Elle consiste à planifier, organiser et gérer les ressources (humaines, matérielles, financières) d'un projet pour atteindre les objectifs fixés en termes de temps, de coûts et de qualité.
 
@@ -30,13 +30,12 @@ Il existe également d'autres variantes de l'agilité, comme Kanban, qui se conc
 Dans ce projet, je n'ai pas appliqué à la lettre ces méthodes d'agilité, mais j'ai utilisé certains éléments pour arriver à la réussite de mes projets. Par exemple, j'ai utilisé des cycles de développement itératifs pour m'adapter rapidement aux changements et aux besoins en constante évolution, et j'ai travaillé en équipe pour livrer rapidement la solution.
 Afin de garder un œil sur l'avancement du travail, j'ai utilisé des "boards" tirées de la méthodologie Kanban, un tableau de carte, permettant d'avoir toutes les tâches de travail au même endroit.
 
-[exemple kanban]
 
 Il est important de noter que l'agilité est un concept global qui peut être adapté à différents domaines et à différentes situations. Le but principal est de s'adapter aux changements et de répondre aux besoins des clients de manière efficace.
 
 J'ai également organisé des réunions régulières avec l'équipe pour faire le point sur l'avancement du projet et identifier les éventuels problèmes ou risques. Grâce à une bonne gestion des ressources et des délais, nous avons réussi à livrer le projet dans les délais prévus et avec une qualité satisfaisante. Mon rôle en tant que responsable de projet a été crucial pour assurer le succès de ce projet.
 
-Enfin, dans un projet de migration de données de l'entreprise Fonroche Lighting d'un partage de fichier Windows vers un NAS qnap. Un NAS est un appareil physique comportant des emplacements pour disque dur. Ce système est complètement autonome et connecté à un réseau, ce qui permet d'avoir un espace de stockage dédié. Dans le monde des NAS, il existe plusieurs marques, dont les leaders sont Qnap et Synology. Synology est une marque que j'ai déjà utilisée lors de la création du Système d'information de la startup Cocoricom lors de mon stage. Ici, nous avons choisi la marque Qnap car l'entreprise avait déjà un environnement de sauvegarde avec cette marque.
+Enfin, dans un projet de migration de données de l'entreprise Fonroche Lighting d'un partage de fichier Windows vers un NAS Qnap. Un NAS est un appareil physique comportant des emplacements pour disque dur. Ce système est complètement autonome et connecté à un réseau, ce qui permet d'avoir un espace de stockage dédié. Dans le monde des NAS, il existe plusieurs marques, dont les leaders sont Qnap et Synology. Synology est une marque que j'ai déjà utilisée lors de la création du Système d'information de la start-up Cocoricom lors de mon stage. Ici, nous avons choisi la marque Qnap car l'entreprise avait déjà un environnement de sauvegarde avec cette marque.
 
 J'ai dû gérer les risques et les problèmes liés à la sécurité des données, ainsi que les difficultés techniques liées à la migration. Il fallait migrer des téraoctets de données sans couper les services sur plusieurs filiales à l’international. Ces données représentent tous les fichiers de l’entreprise de 200 employés depuis 10 ans.
 

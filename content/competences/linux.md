@@ -42,7 +42,7 @@ Avant d'avoir un hyperviseur de type 1 (un système de virtualisation également
 
 Cependant, Ubuntu est basé sur Debian et a l'avantage d'avoir une version serveur allégée mais avec beaucoup de paquets préinstallés par défaut. Le principal avantage d'avoir un serveur Ubuntu plutôt qu'un serveur Debian est d'avoir toutes les dernières versions des services, ce qui est très utile lorsqu'on apprend une technologie. Ubuntu propose nativement "cloud-init", un service permettant la configuration automatique du système. Finie la corvée de l'installation où il faut paramétrer manuellement le système d'exploitation. C'est un outil dont je me sers souvent dès que j'ai besoin de configurer très rapidement un système. Il me suffit de fournir les informations propres à la machine dans un fichier et l’outil s'occupe de l'installation. Cloud-Init est très utilisé dans le monde professionnel lors de l'approvisionnement de machines virtuelles dans le cloud.
 
-L'utilisation d'Ubuntu m'a alors permis d'en apprendre un peu sur les méthodes "automatiques" que les professionnels ou les datacenters utilisent pour déployer rapidement des machines sous Linux.
+L'utilisation d'Ubuntu m'a alors permis d'en apprendre un peu sur les méthodes "automatiques" que les professionnels ou les data centers utilisent pour déployer rapidement des machines sous Linux.
 
 [En savoir plus sur mon Homelab](/realisations/homelab/).
 

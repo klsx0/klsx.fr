@@ -12,12 +12,12 @@ description: "La conteneurisation informatique est une approche innovante qui pe
 
 # À quoi sert la conteneurisation ?
 
-La conteneurisation est une technique informatique qui consiste à empaqueter une application avec toutes ses dépendances, de manière à ce qu'elle puisse être exécutée de manière fiable et reproductible sur n'importe quel environnement. En d'autres termes, elle permet de créer une image de l'application, avec tout ce dont elle a besoin pour fonctionner, et de la déployer sur n'importe quel système d'exploitation ou infrastructure.
+La conteneurisation est une technique informatique qui consiste à empaqueter une application avec toutes ses dépendances, de manière qu'elle puisse être exécutée de manière fiable et reproductible sur n'importe quel environnement. En d'autres termes, elle permet de créer une image de l'application, avec tout ce dont elle a besoin pour fonctionner, et de la déployer sur n'importe quel système d'exploitation ou infrastructure.
 
 La conteneurisation informatique est de plus en plus adoptée en raison de ses avantages en termes d'efficacité et de coût. Selon un rapport sur le marché des conteneurs d'applications, plus de 3,5 millions d'applications ont été placées dans des conteneurs à l'aide de la technologie Docker, et plus de 37 milliards d'applications conteneurisées ont été téléchargées, ce qui encourage l'utilisation accrue des conteneurs pour la gestion des applications.
 
 
-[Etude sur le marché de la conteneurisation](https://www.mordorintelligence.com/fr/industry-reports/application-container-market)
+[Étude sur le marché de la conteneurisation](https://www.mordorintelligence.com/fr/industry-reports/application-container-market)
 
 # Mon expérience
 
@@ -46,7 +46,7 @@ En ce qui concerne mon niveau de maîtrise, je dirais que je suis plutôt à un 
 
 Cependant, je pense qu'il y a encore de la marge de progression pour moi dans cette compétence, notamment en ce qui concerne la gestion de clusters de conteneurs et l'automatisation de la mise en place de l'infrastructure.
 
-En ce qui concerne la contextualisation de cette compétence, je pense que la conteneurisation est une technique très polyvalente et utile dans de nombreux contextes. Toutefois, il est important de noter que chaque projet et chaque infrastructure est unique et qu'elle ne fonctionne pas de la même manière dans toutes les situations. Il est donc important de prendre le temps de bien comprendre les spécificités de chaque projet et de s'adapter en conséquence.
+En ce qui concerne la contextualisation de cette compétence, je pense que la conteneurisation est une technique très polyvalente et utile dans de nombreux contextes. Toutefois, il est important de noter que chaque projet et chaque infrastructure sont uniques et qu'ils ne fonctionnent pas de la même manière dans toutes les situations. Il est donc important de prendre le temps de bien comprendre les spécificités de chaque projet et de s'adapter en conséquence.
 
 Pour maîtriser Docker, il est essentiel de comprendre les principes de base des conteneurs et de la virtualisation. Il est important de comprendre comment les conteneurs fonctionnent et pourquoi ils sont différents des machines virtuelles.
 
@@ -70,8 +70,6 @@ La place, l'importance et la priorité de cette compétence dans mon profil dép
 
 J'ai acquis cette compétence à un rythme assez rapide grâce à mes années d'études et à mon expérience professionnelle dans ce domaine. Je suis également passionné par la technologie et je prends souvent le temps de me tenir au courant des dernières tendances et développements dans ce domaine.
 
-En ce qui concerne mon projet professionnel et mon niveau de maîtrise de la compétence de conteneurisation à moyen terme, je suis actuellement en train de m'auto-former sur Kubernetes et de passer la certification Certified Kubernetes Administrator.
-
+En ce qui concerne mon projet professionnel et mon niveau de maîtrise de la compétence de conteneurisation à moyen terme, je suis actuellement en train de me former en autodidacte sur Kubernetes et de passer la certification Certified Kubernetes Administrator.
 Je pense que la certification [Certified Kubernetes Administrator](https://www.cncf.io/certification/cka/) est un atout important pour ma carrière professionnelle, car elle me permettra de prouver mes compétences et ma maîtrise de cet outil de gestion de conteneurs. Je suis convaincu que Kubernetes est une technologie qui continuera à être très utile dans les années à venir et que maîtriser cet outil me permettra de m'adapter aux évolutions de l'industrie et de poursuivre mon développement professionnel.
-
 Cette formation et cette certification me permettront de perfectionner mes compétences en conteneurisation et de m'ouvrir aux domaines du DevOps et de la gestion de clusters de conteneurs. Je suis convaincu que cette formation et cette certification seront bénéfiques pour ma carrière professionnelle et me permettront de continuer à évoluer et à m'adapter aux évolutions de l'industrie.

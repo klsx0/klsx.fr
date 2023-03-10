@@ -31,7 +31,7 @@ Une infrastructure informatique est unique pour chaque entreprise, les besoins s
 
 # Les expériences
 
-Ma première expérience remonte à mon premier stage en informatique dans la start-up Cocoricom. Lorsque je suis arrivé le premier jour, l’entreprise venait d'emménager dans ses locaux. Il y avait un ordinateur personnel et peu de câblage dans les bureaux. Le but de mon stage était de trouver une solution pour intégrer l’informatique dans l’entreprise, j’avais carte blanche. Avant de commencer la technique, la première chose était de recueillir les besoins. Cocoricom est une agence de communication/imprimerie avec 5 employés.
+Ma première expérience remonte à mon premier stage en informatique dans la start-up Cocoricom. Lorsque je suis arrivé le premier jour, l’entreprise venait d'emménager dans ses locaux. Il y avait un ordinateur personnel et peu de câblages dans les bureaux. Le but de mon stage était de trouver une solution pour intégrer l’informatique dans l’entreprise, j’avais carte blanche. Avant de commencer la technique, la première chose était de recueillir les besoins. Cocoricom est une agence de communication/imprimerie avec 5 employés.
 
 Dans l’imprimerie, les fichiers d’impression et de design sont assez volumineux (un projet unique pouvait facilement atteindre une centaine de gigaoctets). Il fallait trouver de nombreuses solutions pour répondre à cette problématique. Un exemple de chose que j’ai pu mettre en place était le système de partage de fichiers. J’ai réussi à mettre en place un partage de fichiers (SAMBA) sur un NAS Synology (système de stockage en réseau). Pour cela, j’ai dû trouver le bon modèle avec suffisamment d’espace de stockage (15 To de disque dur spécial NAS) et bien configuré (RAID 5).
 

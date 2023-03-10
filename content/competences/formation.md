@@ -20,7 +20,7 @@ Cette compétence est devenue de plus en plus importante dans le monde professio
 
 Un exemple concret de ma participation à la création d'une formation en informatique est l'organisation d'un "coding goûter" dans une école primaire. J'ai eu l'opportunité de travailler avec une équipe d'enseignants pour créer une série d'ateliers ludiques destinés à initier les élèves aux bases du code informatique. Nous avons travaillé en étroite collaboration pour développer des activités adaptées aux différents niveaux des élèves, et nous avons organisé des sessions de démonstration devant des journalistes afin de sensibiliser les parents à l'importance de l'apprentissage de l'informatique dès le plus jeune âge.
 
-[En savoir plus sur l’organisation du Coding gouter](https://www.notion.so/Coding-g-uter-929a587cc68c49feaec20cbd2152d877) 
+[En savoir plus sur l’organisation du Coding goûter](/realisations/gouter) 
 
 Enfin, j'ai également contribué à la création d'une formation sur les outils de collaboration en ligne pour les employés travaillant à distance. J'ai travaillé en étroite collaboration avec l'équipe de communication pour développer des ressources et des tutoriels vidéo afin d'aider les employés à utiliser efficacement ces outils pour travailler en collaboration avec leurs collègues, même à distance.
 
