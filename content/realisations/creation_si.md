@@ -18,7 +18,7 @@ L'entreprise est constituée de trois pôles majeurs : l'imprimerie, la communi
 
 Mon objectif principal lors de mon intervention dans l'entreprise était de concevoir de A à Z le système d'information (SI) de l'entreprise.
 
-Pour en savoir plus sur le Système d’Information, [voir compétence Infrastructure IT.] (/competences/infra)
+Pour en savoir plus sur le Système d’Information, [voir compétence Infrastructure IT.](/competences/infra)
 
 Lorsque je suis arrivé dans l'entreprise, aucun réseau informatique ou téléphonique n'avait été installé, il a donc fallu tout mettre en place. L'objectif était d'avoir un Système Informatique (SI) adaptable (l'entreprise était vouée à évoluer très rapidement) et opérationnel le plus rapidement possible pour lancer l'entreprise.
 
