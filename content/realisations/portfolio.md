@@ -13,9 +13,9 @@ description: "La création d'un portfolio est une étape importante pour tout pr
 Créer son portfolio professionnel est une étape importante pour tous ceux qui souhaitent mettre en avant leurs compétences et leur parcours professionnel. 
 C'est pour cette raison que j'ai décidé de créer mon propre portfolio, que vous êtes en train de consulter en ce moment même.
 Mon objectif principal était de montrer mes compétences et mon expérience professionnelle de manière à attirer l'attention des recruteurs. 
-Ce projet me permettait de me positionner sur le marché du travail en tant qu’un professionnels fraichement diplômé  prêt à relever de nouveaux défis.
+Ce projet me permettait de me positionner sur le marché du travail en tant qu’un professionnel fraîchement diplômé  prêt à relever de nouveaux défis.
 
-En plus de cela, ce projet est également une étape importante pour moi car il me permet de valider mon diplôme d'Expert en Ingénierie des Systèmes d'Informations obtenu à travers la formation Intech du Groupe-Aen.
+En plus de cela, ce projet est également une étape importante pour moi car il me permet de valider mon diplôme d'Expert en Ingénierie des Systèmes d'Information obtenu à travers la formation Intech du Groupe-Aen.
 
 # Les étapes
 
@@ -27,7 +27,7 @@ Dans la création de mon portfolio, j'ai voulu aborder ce projet comme si j'éta
 - La hiérarchisation des informations pour que le portfolio soit facile à parcourir pour le lecteur
 - L'utilisation d'outils d'organisation pour planifier et gérer les différentes étapes de la création du portfolio.
 
-Lorsque j'ai entamé la création de mon portfolio, j'ai tout d'abord commencé par organiser toutes les informations relatives à mon parcours professionnel et mes compétences. Cela m'a permis de définir les sections à inclure dans mon portfolio, comme mon expérience professionnelle, mes projets réalisés, mes compétences techniques et mes réalisations. J'ai également pris le temps de hiérarchiser ces informations afin de mettre en avant les éléments les plus pertinents pour les employeurs potentiels. Pour faciliter cette organisation, j'ai utilisé des tableaux Excel pour organiser les différents éléments de mon portfolio. Cette étape d'organisation m'a permis de définir une structure claire pour mon portfolio et de m'assurer que toutes les informations importantes étaient incluses.
+Lorsque j'ai entamé la création de mon portfolio, j'ai commencé par organiser toutes les informations relatives à mon parcours professionnel et mes compétences. Cela m'a permis de définir les sections à inclure dans mon portfolio, comme mon expérience professionnelle, mes projets réalisés, mes compétences techniques et mes réalisations. J'ai également pris le temps de hiérarchiser ces informations afin de mettre en avant les éléments les plus pertinents pour les employeurs potentiels. Pour faciliter cette organisation, j'ai utilisé des tableaux Excel pour organiser les différents éléments de mon portfolio. Cette étape d'organisation m'a permis de définir une structure claire pour mon portfolio et de m'assurer que toutes les informations importantes étaient incluses.
 
 ![Untitled](/img/comp.png)
 
@@ -69,7 +69,7 @@ Articles qui ont aidé dans la conception :
 
 ## Maquettage
 
-Après avoir étudié les portfolio existants, j'ai commencé à mettre en forme mes recherches en créant différents croquis pour visualiser les différentes options de mise en page. Je voulais que le site soit simple, efficace et reflète totalement ma personnalité. J'ai également pris en compte le fait que j'aimais les thèmes sombres pour les sites web.
+Après avoir étudié les portfolios existants, j'ai commencé à mettre en forme mes recherches en créant différents croquis pour visualiser les différentes options de mise en page. Je voulais que le site soit simple, efficace et reflète totalement ma personnalité. J'ai également pris en compte le fait que j'aimais les thèmes sombres pour les sites web.
 
 Pour créer mes maquettes, j'ai utilisé l'outil de prototypage Figma. Cet outil m'a permis de créer une prévisualisation interactive du site web, en y ajoutant les différentes sections que j'avais identifiées lors de mes recherches. J'ai pu ainsi voir à quoi ressemblerait le site final et apporter les modifications nécessaires pour répondre à mes besoins.
 Voici quelques parties essentielles pour moi :
@@ -140,14 +140,14 @@ Voici le contenu MarkDown affiché par la variable “Content”
 ```yaml
 **Passionné et curieux**, toujours à la recherche de nouvelles connaissances et de manières d'apprendre et de partager. Cette soif de découverte et de développement personnel est essentielle pour moi et me permet de m'épanouir professionnellement et personnellement.
 
-La technologie a toujours été une passion pour moi depuis mon plus jeune âge. J'ai eu de nombreux projets personnels liés à l'informatique, tels que la création de sites web, l'installation de mon propre **serveur informatique à la maison**, la participation à des game-jams (dévellopement d’un jeu vidéo en équipe en un temps limité) et des CTFs (type d’exercice) en sécurité informatique.  
+La technologie a toujours été une passion pour moi depuis mon plus jeune âge. J'ai eu de nombreux projets personnels liés à l'informatique, tels que la création de sites web, l'installation de mon propre **serveur informatique à la maison**, la participation à des game-jams (dévelopement d’un jeu vidéo en équipe en un temps limité) et des CTFs (type d’exercice) en sécurité informatique.  
 J'ai également codé des scripts pour améliorer mon quotidien (domotique, tâches répétitives). Ces expériences m'ont permis de développer mes compétences en développement et en **sécurité informatique**, et de participer à de nombreux projets passionnants au cours de ma carrière.
 
 Depuis un an, j'ai découvert une nouvelle passion : la boxe française. Cela me permet de me défouler, de prendre confiance en moi et de **gérer le stress de manière efficace**. Cette activité physique et mentale est également un excellent moyen de développer mon endurance et ma détermination.
 
 En tant qu'**Expert en Ingénierie des Systèmes d'Information**, j'ai appris à m'organiser, à être à l'aise à l'oral et à travailler en équipe. Mon projet personnel est de travailler dans le domaine du **devops**, car j'aimerais travailler en lien avec des développeurs pour créer des solutions efficaces et durables.
 
-En résumé, je suis toujours à la recherche de nouvelles connaissances et de manières de les partager. Les nouvelles technologies et la boxe française sont mes passions principales, et je suis déterminé à continuer à apprendre et à me développer personnellement et professionnellement. Mon projet professionnel est de devenir un **professionel reconnu dans le domaine de l'ingénierie des systèmes d'information** et de contribuer à l'amélioration des processus et des technologies de l'information dans les entreprises.
+En résumé, je suis toujours à la recherche de nouvelles connaissances et de manières de les partager. Les nouvelles technologies et la boxe française sont mes passions principales, et je suis déterminé à continuer à apprendre et à me développer personnellement et professionnellement. Mon projet professionnel est de devenir un **professionnel reconnu dans le domaine de l'ingénierie des systèmes d'information** et de contribuer à l'amélioration des processus et des technologies de l'information dans les entreprises.
 ```
 
 Voici ensuite, le rendu final de cette partie:
@@ -159,7 +159,7 @@ Pour héberger mon site, j'ai utilisé Netlify, un service gratuit qui récupèr
 
 Au final, la création de mon site web a été un processus très enrichissant. J'ai appris à utiliser de nouveaux outils et à travailler avec des technologies que je ne connaissais pas auparavant. Je suis très satisfait du résultat final et je pense que ce site web est un excellent moyen de présenter mes compétences et mon portfolio.
 
-Quelques ressources que j’ai utilisé :
+Quelques ressources que j’ai utilisées :
 
 - Pour apprendre simplement Hugo : [https://hugo-mini-course.netlify.app/](https://hugo-mini-course.netlify.app/)
 - La documentation Officielle Hugo : [https://gohugo.io/documentation/](https://gohugo.io/documentation/)
