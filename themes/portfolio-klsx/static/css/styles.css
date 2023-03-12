@@ -85,11 +85,11 @@ p {
 .intro-title {
   font-family: 'Kaushan Script', sans-serif;
   font-size: 4em;
-
+  
 }
 
 .subtitle {
-  color: white !important;
+  color: #c5c8ce !important;
   font-weight: 300 !important;
 }
 
@@ -97,10 +97,11 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: 300 !important;
+  color: white !important;
 }
 
 p {
-  color: white;
+  color: #f3f7ff;
 }
 .badge {
   margin-top:0;
@@ -174,5 +175,5 @@ h2 {
   color: #5479a4 !important;
 }
 li {
-  color: white !important;
+  color: #f3f7ff !important;
 }
